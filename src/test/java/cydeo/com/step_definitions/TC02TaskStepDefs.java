@@ -11,9 +11,7 @@ public class TC02TaskStepDefs {
 
     @Given("user is on HelpDesk Page")
     public void user_is_on_help_desk_page() {
-
         loginPage.openWebSiteAndLogIn();
-
     }
     @When("user clicks on Task module")
     public void user_clicks_on_task_module() {
