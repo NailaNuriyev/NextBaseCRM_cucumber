@@ -11,10 +11,10 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features" ,
-        glue = "com/cydeo/step_definitions",
+        glue = "cydeo/com/step_definitions",
         dryRun = false,
-        tags = ""
+        tags = "@TC01"
 
 )
-public class Runner {
+public class CukesRunner {
 }
